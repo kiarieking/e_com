@@ -8,12 +8,12 @@ import { Router } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <TaskList/> */}
-      <Router>
+      <TaskList/>
+      {/* <Router>
         <TaskDetail>
           <Baserouter/>
         </TaskDetail>
-      </Router>
+      </Router> */}
     </div>
   );
 }
