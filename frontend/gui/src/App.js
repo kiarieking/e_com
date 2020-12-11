@@ -4,11 +4,12 @@ import TaskList from './components/TaskList';
 import TaskDetail from './components/TaskDetail';
 import Baserouter from './routes';
 import { Router } from 'react-router-dom';
+import TaskCreate from './components/TaskCreate';
 
 function App() {
   return (
     <div className="App">
-      <TaskList/>
+      <TaskCreate/>
       {/* <Router>
         <TaskDetail>
           <Baserouter/>
